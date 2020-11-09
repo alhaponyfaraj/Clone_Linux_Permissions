@@ -19,7 +19,7 @@ do
 
         echo "Directory " ${dir} " DOES NOT exists."
         break 
-        exit 9999 # die with error code 9999
+        exit 1 # die with error code 1
     fi
 done
 
